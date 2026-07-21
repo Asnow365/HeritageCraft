@@ -15,7 +15,7 @@ const TextExploration = () => {
       return;
     }
     const sid = String(selectedImageId).padStart(6, "0");
-    fetch(`/data/01_img-prompts/prompt_${sid}.txt`)
+    fetch(`${import.meta.env.BASE_URL}data/01_img-prompts/prompt_${sid}.txt`)
       .then((r) => {
         if (!r.ok) throw new Error("not found");
         return r.text();

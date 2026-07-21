@@ -9,7 +9,7 @@ const AppInner = () => {
 
   useEffect(() => {
     dispatch.a31.loadRunData({
-      artifactsRoot: "./src/assets/a31-mock",
+      artifactsRoot: `${import.meta.env.BASE_URL}data/a31-mock`,
     });
   }, []);
 

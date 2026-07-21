@@ -36,7 +36,7 @@ const AttentionView = () => {
     }
     const sid = String(selectedImageId).padStart(6, "0");
     Promise.all([
-      fetch(`/data/${sid}_fidelity_scores.json`).then(r => r.json()),
+      fetch(`${import.meta.env.BASE_URL}data/${sid}_fidelity_scores.json`).then(r => r.json()),
     ]).then(([fidelityJson]: any) => {
       // Get all rounds, sort by overall_fidelity descending, take top 6
       const rounds = Object.entries(fidelityJson) as [string, any][];

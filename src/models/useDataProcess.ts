@@ -233,7 +233,7 @@ const useDataProcess = () => {
       if (!id || !trajectories) return undefined;
       const sampleId = String(id).padStart(6, "0");
       const round = roundLabel || "r19";
-      return `/data/models/${sampleId}/${sampleId}_${round}.glb`;
+      return `${import.meta.env.BASE_URL}data/models/${sampleId}/${sampleId}_${round}.glb`;
     },
     [trajectories]
   );
