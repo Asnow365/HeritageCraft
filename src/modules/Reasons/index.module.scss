@@ -1,0 +1,12 @@
+.local-exploration-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  .result-details {
+    width: 100%;
+    cursor: pointer;
+    overflow-y: auto;
+    font-size: 12px;
+  }
+}

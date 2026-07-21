@@ -1,0 +1,21 @@
+[
+  {"id": 0, "short": "CompID",  "name": "Component Identification",   "group": "Strong"},
+  {"id": 1, "short": "Spatial", "name": "Spatial Relationship",       "group": "Weak"},
+  {"id": 2, "short": "RoofSup", "name": "Roof Support",               "group": "Strong"},
+  {"id": 3, "short": "ColGrnd", "name": "Column Ground",              "group": "Strong"},
+  {"id": 4, "short": "BasePlat","name": "Base Platform",              "group": "Strong"},
+  {"id": 5, "short": "Persp",   "name": "Perspective",                "group": "Weak"},
+  {"id": 6, "short": "TimbrRf", "name": "Timber Roof",                "group": "Weak"},
+  {"id": 7, "short": "CoreComp","name": "Core Components",            "group": "Weak"},
+  {"id": 8, "short": "AntiMod", "name": "Anti-Modern",                "group": "Strong"},
+  {"id": 9, "short": "VolStab", "name": "Volume Stability",           "group": "Strong"},
+  {"id":10, "short": "BridgeW", "name": "Bridge Water",               "group": "Bottleneck"},
+  {"id":11, "short": "StoryCt", "name": "Story Count",                "group": "Bottleneck"},
+  {"id":12, "short": "StreetI", "name": "Street Interface",           "group": "Bottleneck"},
+  {"id":13, "short": "Courtyd", "name": "Courtyard",                  "group": "Weak"},
+  {"id":14, "short": "Height",  "name": "Height",                     "group": "Strong"},
+  {"id":15, "short": "Landmk",  "name": "Landmark",                   "group": "Bottleneck"},
+  {"id":16, "short": "SctrInf", "name": "Scattered Info",             "group": "Weak"},
+  {"id":17, "short": "AntiUrb", "name": "Anti-Urban",                 "group": "Strong"},
+  {"id":18, "short": "BridgeS", "name": "Bridge Structure",           "group": "Weak"}
+]
