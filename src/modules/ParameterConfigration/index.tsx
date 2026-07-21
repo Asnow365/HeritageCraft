@@ -27,6 +27,11 @@ const ModelInput = () => {
     dispatch.parameter.updateState({ selectedImageId: selectedSample });
   }, [dispatch, selectedSample]);
 
+  const handleSelectSample = useCallback((sid: string) => {
+    setSelectedSample(sid);
+    dispatch.parameter.updateState({ selectedImageId: sid });
+  }, [dispatch]);
+
   const isSelected = selectedImageId === selectedSample;
 
   return (
@@ -49,7 +54,7 @@ const ModelInput = () => {
             className={`${styles["sample-card"]} ${
               selectedSample === sid ? styles["sample-selected"] : ""
             }`}
-            onClick={() => setSelectedSample(sid)}
+            onClick={() => handleSelectSample(sid)}
           >
             <Image
               src={`data/01_images/${sid}.jpg`}
