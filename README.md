@@ -1,5 +1,7 @@
 # A31 Frontend: 3D Generation Failure Learning Visualization
 
+🌐 **在线演示**：[https://asnow365.github.io/HeritageCraft/](https://asnow365.github.io/HeritageCraft/)
+
 前端可视化面板，用于展示 [A31]("https://github.com/") 项目的 3D 生成管线运行结果。
 
 ## 功能模块
