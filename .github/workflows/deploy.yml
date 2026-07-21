@@ -29,8 +29,11 @@ jobs:
         with:
           node-version: "22"
 
+      - name: Use default npm registry
+        run: rm -f .npmrc
+
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build
         run: npm run build
