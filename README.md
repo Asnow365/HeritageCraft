@@ -1,4 +1,4 @@
-# A31 Frontend: 3D Generation Failure Learning Visualization
+# 3D Generation Failure Learning Visualization
 
 🌐 **在线演示**：[https://asnow365.github.io/HeritageCraft/](https://asnow365.github.io/HeritageCraft/)
 
